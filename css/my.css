@@ -1,0 +1,86 @@
+h2 {
+  font-family: "Montserrat", Arial, sans-serif;
+  /*font-family: 'Josefin Sans';*/
+  /*font-family: 'Lucida Grande';*/
+}
+
+.profile-icon {
+}
+.profile-icon:hover {
+  color: rgba(130,130,130,0.9);
+}
+#btn-cv {
+  font-family: 'icomoon';
+  border-radius: 3px;
+  border: 1px #cabcab solid;
+  padding: 10px; 
+  color: #cabcab;
+}
+#btn-cv:hover {
+  background: #cabcab;
+  color: white;
+}
+.fh5co-nav {
+  opacity: 0.7;
+}
+
+.menu-1 > a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.menu-1 > a:hover {
+  color: #000;
+}
+
+.work .work-grid .inner .desc {
+  vertical-align: bottom;
+  padding: 20px;
+}
+.work .work-grid .inner .desc h3 {
+  color: white;
+  font-size: 20pt;
+}
+.work .work-grid .inner {
+  background: rgba(0,0,0, 0.5);
+}
+@media screen and (max-width: 768px) {
+  .work .work-grid .inner {
+    background: rgba(237, 235, 232, 0.8);
+  }
+}
+/*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 768px) {
+  .intro{
+    text-align: center;
+  }
+  .intro h4{
+    font-size: 14px;
+  }
+}
+.portfolio-desp {
+  padding-top: 0px;
+  text-align: left;
+  /*padding: 0px 150px 0px 150px;*/
+}
+.portfolio-desp h3{
+  padding-top: 60px;
+  font-size: 30px;
+}
+.portfolio-desp h5{
+  padding-top: 20px;
+  font-size: 20px;
+  /*font-weight: 400;*/
+}
+.portfolio-desp img{
+  width: 100%;
+  padding: 20px;
+}
+.img-desp {
+  text-align: center;
+  padding-top: 0px;
+  font-size: 10px;
+  color: gray;
+}
