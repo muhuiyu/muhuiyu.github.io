@@ -1,3 +1,7 @@
+*, html {
+  -webkit-font-smoothing: antialiased;
+}
+
 h2 {
   font-family: "Montserrat", Arial, sans-serif;
   /*font-family: 'Josefin Sans';*/
@@ -53,6 +57,10 @@ h2 {
 /*# sourceMappingURL=style.css.map */
 
 @media screen and (max-width: 768px) {
+  html {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   .intro{
     text-align: center;
   }
@@ -73,6 +81,13 @@ h2 {
   padding-top: 20px;
   font-size: 20px;
   /*font-weight: 400;*/
+}
+.portfolio-desp p{
+  font-family: "Source Sans Pro", sans-serif;
+  text-rendering: optimizeLegibility;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
 }
 .portfolio-desp img{
   width: 100%;
