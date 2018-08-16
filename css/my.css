@@ -86,7 +86,7 @@ h2 {
   font-family: "Source Sans Pro", sans-serif;
   text-rendering: optimizeLegibility;
   line-height: 26px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 .portfolio-desp img{
@@ -107,4 +107,5 @@ h2 {
 }
 .portfolio-desp ul li {
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
 }
