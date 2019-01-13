@@ -1,0 +1,77 @@
+.fh5co-nav {
+	background-color: rgba(255,255,255,0.7);
+}
+
+.fh5co-nav .fh5co-top-logo {
+  width: 30%;
+}
+
+.fh5co-nav .fh5co-top-menu {
+  	width: 70%;
+}
+
+.fh5co-nav #fh5co-logo {
+	font-size: 24px;
+	font-weight: lighter;
+	color: #555555;
+}
+.fh5co-top-menu {
+	font-size: 14pt;
+}
+
+.top-line h2{
+	font-family: 'icomoon';
+	line-height: 0.8;
+	color: #333333;
+	/*letter-spacing: -0.5px;*/
+}
+.top-line {
+  padding-bottom: 9em;
+}
+
+.underline-magical {
+	background-image: linear-gradient(120deg, #feeebf, #fcc72c);
+	background-repeat: no-repeat;
+	background-size: 100% 0.2em;
+	background-position: 0 88%;
+	transition: background-size 0.25s ease-in;
+}
+
+.work-heading h1 {
+	text-transform: none;
+	font-weight: 600;
+	color: #444444;
+}
+.work-heading h2 {
+	text-transform: none;
+	color: #444444;
+}
+.work-heading h4 {
+	color: #444444;
+	font-family: 'icomoon';
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+
+.work-heading p {
+	font-size: 12pt;
+}
+.work-heading a {
+	font-weight: 600;
+}
+.work-subtitle {
+	color: #cabcab !important; 
+	letter-spacing: 3px;
+}
+p > a {
+	font-weight: 600;
+}
+
+p {
+	letter-spacing: 1px;
+	line-height: 1.7 !important;
+}
+li {
+	letter-spacing: 1px;
+	line-height: 2 !important;	
+}
