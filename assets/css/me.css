@@ -485,3 +485,7 @@ hr.rounded {
 .intro-header a {
 	color: #52ab4b;
 }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+}
