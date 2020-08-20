@@ -489,3 +489,12 @@ hr.rounded {
 *, *:before, *:after {
   -moz-box-sizing: border-box;
 }
+
+.about-desp a {
+	color: #52ab4b;
+}
+
+.about-desp p {
+	font-size: 15pt;
+	line-height: 2;
+}
