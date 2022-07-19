@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Narrative Visualization Project</title>
+    <link rel="stylesheet" href="index.css">
+
+  </head>
+  <body>
+    <p style="font-weight: 400;">CS416: Data Visualization - Narrative Visualization Project (muhuiyu2@illinois.edu)</p>
+    <h1>Do The US Police Live In The Cities They Serve?</h1>
+    <p>Data source is from FiveThirtyEight [<a href="https://github.com/fivethirtyeight/data/tree/master/police-locals">Github Link</a>]</p>
+
+    <div class="center">
+      <div class="pagination">
+      <a href="./scene2.html">&laquo;</a>
+      <a href="./scene1.html">Cities With The 75 Largest Police Forces</a>
+      <a href="./scene2.html">Residence of the Police Officers</a>
+      <a href="./scene3.html" class="active">Percentage Of Local Police Officers In Each Race In A City</a>
+      <a href="./scene3.html">&raquo;</a>
+      </div>
+    </div>
+    <h2>Percentage Of Local Police Officers In Each Race In A City</h2>
+    <p class="text-block">
+        In the second chart, we see the difference of residence in different cities. These differences reflect a combination of three major factors: a city’s racial composition, whether it has a residency requirement for police and its geography.
+        On average among the 75 cities, 49% of black police officers and 47% of Hispanic officers live within the city limits. But just 35% of white police officers do. The disparity is starkest in cities with largely black populations. In Detroit, for example, 57% of black police officers live in the city but just 8% of white ones do. Memphis, Tennessee; Baltimore; Birmingham, Alabama; and Jackson, Mississippi — also majority black — likewise have large racial gaps in where their police officers live.<br><br>
+        Black and Hispanic officers are considerably more likely to reside in the cities they police than white ones. In New York, for example, 62% of the police force resides within the five boroughs — a comparatively high figure. But there’s a stark racial divide. Seventy-seven% of black New York police officers live in the city, and 76% of Hispanic ones do, but the same is true for only 45% of white officers.
+    </p>
+    <div id="slide-3">
+        <label for="cities">Select a city:</label>
+        <select id="cities"></select>
+        <div id="bar"></div>
+    </div>
+  </body>
+
+  <script src="http://d3js.org/d3.v4.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+
+  <script src="./main.js"></script>
+  <script src="./viz3.js"></script>
+
+</html>
