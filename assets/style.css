@@ -12,7 +12,7 @@
 
 body {
   line-height: 1.6;
-  padding: 8vw 0;
+  padding: 2vw 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background: #ffffff;
@@ -70,10 +70,13 @@ h1.main-title sub {
   font-weight: 400;
 }
 h2 {
-  font-size: 12px;
-  margin: 0;
+  font-size: 14px;
+  margin: 2vw 0 0 0;
   font-weight: 700;
   color: rgba(0,0,0,0.3);
+}
+.container img {
+  margin-bottom: 0px;
 }
 img.fluid-width {
   display: block;
@@ -104,7 +107,7 @@ footer {
     font-size: 1em;
   }
   h1.main-title {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   p.small {
     line-height: 160%;
